@@ -1,33 +1,44 @@
 # ⚡ CPS PRO v6.2 - Global Edition 🐍
-### **A Piton Studio bemutatja: A leggyorsabb kattintásmérő szoftver** 🇭🇺
+### **Developed by Piton Studio** 🇭🇺
 
-A **CPS PRO** nem egy átlagos sebességmérő. Ez egy nagy precizitású, professzionális eszköz, amelyet kompetitív játékosoknak és hardvertesztelőknek fejlesztettünk. Stílusos, gyors és kíméletlen.
-
----
-
-## 🔥 Mit tud a CPS PRO?
-
-* **⚡ Adaptive Fire Mode:** Ha eléred a 12 CPS-t, a kezelőfelület "lángolni" kezd – érezd a sebességet!
-* **🎮 Full Controller Support:** Azonnali visszajelzés Xbox és PlayStation kontrollerekhez. Teszteld a gombjaid válaszidejét!
-* **⌨️ Smart KPS Engine:** Intelligens Key-Per-Second figyelő, amely kiszűri a billentyű-visszapattanásokat és a "beakasztott" gombokat.
-* **🌍 6 Nyelv:** Teljes lokalizáció: Magyar, Angol, Német, Francia, Orosz és Kínai nyelven.
-* **🔒 Felhasználói Rendszer:** Biztonságos bejelentkezés és "1 hetes munkamenet" funkció, hogy ne kelljen folyton jelszót írnod.
-* **📊 Live Statistics:** Kövesd nyomon a fejlődésed a beépített előzmények táblázattal.
-* **🌓 Visual Themes:** Válts a mély-lila Sötét mód és a tiszta Világos mód között egyetlen gombbal.
+A **CPS PRO** egy nagy pontosságú, professzionális kattintási sebességmérő (CPS) és tesztkörnyezet játékosoknak. Ez a verzió már tartalmazza a teljes kontrollertámogatást, a csalás elleni védelmet és a többnyelvű kezelőfelületet.
 
 ---
 
-## 💎 Piton Studio Minőség
+## 🚀 Főbb Jellemzők
 
-Ez az alkalmazás a modern minimalizmus és a nyers erő találkozása. A motorháztető alatt egy optimalizált SQLite adatbázis és egy SHA-256 titkosítású biztonsági rendszer dolgozik, hogy az eredményeid mindig biztonságban legyenek.
+* **🔥 Adaptive Fire Mode:** 12 CPS felett az interfész "tűz üzemmódba" vált dinamikus vizuális effektekkel.
+* **🎮 Controller Support:** Beépített Xbox/PlayStation kiosztás teszteléshez. Mérd le a kontrollered válaszidejét!
+* **⌨️ Anti-Cheat KPS:** Speciális billentyű-leütés figyelő, amely figyelmen kívül hagyja a nyomva tartott gombokat.
+* **🌍 Multi-Language:** 6 nyelv támogatása (Magyar, Angol, Német, Francia, Orosz, Kínai).
+* **🔒 Secure Login:** Beépített felhasználói rendszer SQLite adatbázissal és "Maradj belépve" (1 hetes munkamenet) opcióval.
+* **📊 Statisztikák:** Az utolsó 10 eredményedet automatikusan menti és megjeleníti az előzményeknél.
+* **🌓 Dark & Light Mode:** Választható sötét és világos téma a kényelmes használat érdekében.
 
 ---
 
-## 👤 Credits & Status
-* **Fejlesztő:** Piton Studio 🇭🇺
-* **Verzió:** v6.2 (Global Build)
-* **Státusz:** Private Application (Closed Source)
-* **Mottó:** *"Precision. Speed. Power."*
+## 🛠 Technikai specifikációk
 
+* **Nyelv:** Python 3.x
+* **GUI:** Tkinter (Egyedi Piton Studio dizájnnal)
+* **Adatbázis:** SQLite3
+* **Biztonság:** SHA-256 jelszó titkosítás
+* **Kompatibilitás:** Windows (EXE-ként is), Linux, macOS, Android (Pydroid 3-mal)
+
+---
+
+## 💻 Telepítés és futtatás
+
+1.  **Python telepítése:** Győződj meg róla, hogy a [Python](https://www.python.org/) telepítve van.
+2.  **Futtatás:**
+    ```bash
+    python Cps_pro_V6.py
+    ```
+
+### Hogyan készíts belőle EXE fájlt?
+Ha saját alkalmazást szeretnél gyártani belőle, használd a PyInstallert:
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed --name=Cps_Pro --icon="icon.ico" Cps_pro_V6.py
 ---
 © 2026 Piton Studio. Minden jog fenntartva.
