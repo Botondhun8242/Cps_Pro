@@ -40,5 +40,6 @@ Ha saját alkalmazást szeretnél gyártani belőle, használd a PyInstallert:
 ```bash
 pip install pyinstaller
 pyinstaller --onefile --windowed --name=Cps_Pro --icon="icon.ico" Cps_pro_V6.py
+```
 ---
 © 2026 Piton Studio. Minden jog fenntartva.
